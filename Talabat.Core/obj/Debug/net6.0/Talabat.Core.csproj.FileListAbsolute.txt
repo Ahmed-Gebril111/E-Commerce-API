@@ -10,3 +10,16 @@ C:\Users\hp007\Desktop\ASP.Net Core Web APIs\Talabat.APIs.Solution\Talabat.Core\
 C:\Users\hp007\Desktop\ASP.Net Core Web APIs\Talabat.APIs.Solution\Talabat.Core\obj\Debug\net6.0\Talabat.Core.pdb
 C:\Users\hp007\Desktop\ASP.Net Core Web APIs\Talabat.APIs.Solution\Talabat.Core\obj\Debug\net6.0\ref\Talabat.Core.dll
 C:\Users\hp007\Desktop\ASP.Net Core Web APIs\Talabat.APIs.Solution\Talabat.Core\obj\Debug\net6.0\Talabat.Core.csproj.AssemblyReference.cache
+F:\Complete Route Project\E-Commerce-API\Talabat.Core\bin\Debug\net6.0\Talabat.Core.deps.json
+F:\Complete Route Project\E-Commerce-API\Talabat.Core\bin\Debug\net6.0\Talabat.Core.dll
+F:\Complete Route Project\E-Commerce-API\Talabat.Core\bin\Debug\net6.0\Talabat.Core.pdb
+F:\Complete Route Project\E-Commerce-API\Talabat.Core\obj\Debug\net6.0\Talabat.Core.csproj.AssemblyReference.cache
+F:\Complete Route Project\E-Commerce-API\Talabat.Core\obj\Debug\net6.0\Talabat.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\Complete Route Project\E-Commerce-API\Talabat.Core\obj\Debug\net6.0\Talabat.Core.AssemblyInfoInputs.cache
+F:\Complete Route Project\E-Commerce-API\Talabat.Core\obj\Debug\net6.0\Talabat.Core.AssemblyInfo.cs
+F:\Complete Route Project\E-Commerce-API\Talabat.Core\obj\Debug\net6.0\Talabat.Core.csproj.CoreCompileInputs.cache
+F:\Complete Route Project\E-Commerce-API\Talabat.Core\obj\Debug\net6.0\Talabat.Core.sourcelink.json
+F:\Complete Route Project\E-Commerce-API\Talabat.Core\obj\Debug\net6.0\Talabat.Core.dll
+F:\Complete Route Project\E-Commerce-API\Talabat.Core\obj\Debug\net6.0\refint\Talabat.Core.dll
+F:\Complete Route Project\E-Commerce-API\Talabat.Core\obj\Debug\net6.0\Talabat.Core.pdb
+F:\Complete Route Project\E-Commerce-API\Talabat.Core\obj\Debug\net6.0\ref\Talabat.Core.dll

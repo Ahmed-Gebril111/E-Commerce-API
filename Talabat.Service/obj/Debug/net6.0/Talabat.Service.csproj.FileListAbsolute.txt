@@ -13,3 +13,19 @@ C:\Users\hp007\Desktop\ASP.Net Core Web APIs\Talabat.APIs.Solution\Talabat.Servi
 C:\Users\hp007\Desktop\ASP.Net Core Web APIs\Talabat.APIs.Solution\Talabat.Service\bin\Debug\net6.0\Talabat.Core.pdb
 C:\Users\hp007\Desktop\ASP.Net Core Web APIs\Talabat.APIs.Solution\Talabat.Service\obj\Debug\net6.0\Talabat.Service.csproj.AssemblyReference.cache
 C:\Users\hp007\Desktop\ASP.Net Core Web APIs\Talabat.APIs.Solution\Talabat.Service\obj\Debug\net6.0\Talabat.Service.csproj.CopyComplete
+F:\Complete Route Project\E-Commerce-API\Talabat.Service\bin\Debug\net6.0\Talabat.Service.deps.json
+F:\Complete Route Project\E-Commerce-API\Talabat.Service\bin\Debug\net6.0\Talabat.Service.dll
+F:\Complete Route Project\E-Commerce-API\Talabat.Service\bin\Debug\net6.0\Talabat.Service.pdb
+F:\Complete Route Project\E-Commerce-API\Talabat.Service\bin\Debug\net6.0\Talabat.Core.dll
+F:\Complete Route Project\E-Commerce-API\Talabat.Service\bin\Debug\net6.0\Talabat.Core.pdb
+F:\Complete Route Project\E-Commerce-API\Talabat.Service\obj\Debug\net6.0\Talabat.Service.csproj.AssemblyReference.cache
+F:\Complete Route Project\E-Commerce-API\Talabat.Service\obj\Debug\net6.0\Talabat.Service.GeneratedMSBuildEditorConfig.editorconfig
+F:\Complete Route Project\E-Commerce-API\Talabat.Service\obj\Debug\net6.0\Talabat.Service.AssemblyInfoInputs.cache
+F:\Complete Route Project\E-Commerce-API\Talabat.Service\obj\Debug\net6.0\Talabat.Service.AssemblyInfo.cs
+F:\Complete Route Project\E-Commerce-API\Talabat.Service\obj\Debug\net6.0\Talabat.Service.csproj.CoreCompileInputs.cache
+F:\Complete Route Project\E-Commerce-API\Talabat.Service\obj\Debug\net6.0\Talabat.Service.sourcelink.json
+F:\Complete Route Project\E-Commerce-API\Talabat.Service\obj\Debug\net6.0\Talabat..89B18B2E.Up2Date
+F:\Complete Route Project\E-Commerce-API\Talabat.Service\obj\Debug\net6.0\Talabat.Service.dll
+F:\Complete Route Project\E-Commerce-API\Talabat.Service\obj\Debug\net6.0\refint\Talabat.Service.dll
+F:\Complete Route Project\E-Commerce-API\Talabat.Service\obj\Debug\net6.0\Talabat.Service.pdb
+F:\Complete Route Project\E-Commerce-API\Talabat.Service\obj\Debug\net6.0\ref\Talabat.Service.dll

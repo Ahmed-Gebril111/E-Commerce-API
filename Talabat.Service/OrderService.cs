@@ -38,7 +38,7 @@ namespace Talabat.Service
                 {
                     var Product = await _productRepo.GetByIdAsync(item.Id);
                     var ProductItemOrdered = new ProductItemOrdered(Product.Id, Product.Name, Product.PictureUrl);
-                    var OrderItem = new OrderItem(ProductItemOrdered, item.Quantity, Product.Price);
+                    var OrderItem = new OrderItem(ProductItemOrdered, item.Quantity, (int)Product.Price);
                     OrderItems.Add(OrderItem);
                 }
             }
