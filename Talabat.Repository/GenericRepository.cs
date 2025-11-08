@@ -50,7 +50,7 @@ namespace Talabat.Repository
             return await ApplySpecification(spec).ToListAsync();
         }
 
-        public async Task<T> GetByIdWithSpecAsync(ISpecification<T> spec)
+        public async Task<T> GetEntityWithSpecAsync(ISpecification<T> spec)
         {
             return await ApplySpecification(spec).FirstOrDefaultAsync();
         }
@@ -70,6 +70,12 @@ namespace Talabat.Repository
 
         public async Task Add(T item)
          =>    await _dbcontext.Set<T>().AddAsync(item);
+
+        public void Update(T item)
+        => _dbcontext.Set<T>().Update(item);
+
+        public void Delete(T item)
+        => _dbcontext.Set<T>().Remove(item);
 
         #endregion
 

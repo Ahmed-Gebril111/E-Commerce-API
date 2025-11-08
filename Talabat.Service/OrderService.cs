@@ -16,13 +16,13 @@ namespace Talabat.Service
     {
         private readonly IBasketRepository _basketRepository;
         private readonly IUnitOfWork _unitOfWork;
+        private readonly IPaymentService _paymentService;
 
-       
-        public OrderService(IBasketRepository basketRepository ,IUnitOfWork unitOfWork)
+        public OrderService(IBasketRepository basketRepository ,IUnitOfWork unitOfWork,IPaymentService paymentService)
         {
             _basketRepository = basketRepository;
             _unitOfWork = unitOfWork;
-            
+            _paymentService = paymentService;
         }
 
         public async Task<Order> CreateOrderAsync(string buyerEmail, string basketId, int DeliveryMethodId, Address ShippingAddress)
@@ -52,8 +52,15 @@ namespace Talabat.Service
             var DeliveryMethod = await _unitOfWork.Repository<DeliveryMethod>().GetByIdAsync(DeliveryMethodId);
 
             //5.Create Order 
+            var Spec = new OrderWithPaymentIntentSpec(Basket.PaymentIntentId);
+            var ExOrder = await _unitOfWork.Repository<Order>().GetEntityWithSpecAsync(Spec);
+            if(ExOrder is not null)
+            {
+                _unitOfWork.Repository<Order>().Delete(ExOrder);
+                await _paymentService.CreateOrUpdatePaymentIntent(basketId);
+            }
 
-            var Order = new Order(buyerEmail, ShippingAddress, DeliveryMethod, OrderItems, SubTotal);
+            var Order = new Order(buyerEmail, ShippingAddress, DeliveryMethod, OrderItems, SubTotal,Basket.PaymentIntentId);
 
             //6. Add Order Locally 
 
@@ -78,7 +85,7 @@ namespace Talabat.Service
         public async Task<Order> GetOrderByIdForSpecificUserAsync(string buyerEmail, int OrderId)
         {
             var Spec = new OrderSpecifications(buyerEmail, OrderId);
-            var Order = await _unitOfWork.Repository<Order>().GetByIdWithSpecAsync(Spec);
+            var Order = await _unitOfWork.Repository<Order>().GetEntityWithSpecAsync(Spec);
             return Order;
         }
 

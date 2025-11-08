@@ -49,7 +49,7 @@ namespace Talabat.APIs.Controllers
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
             var spec = new ProductWithBrandAndTypeSpecification(id);
-            var Product = await _productRepo.GetByIdWithSpecAsync(spec);
+            var Product = await _productRepo.GetEntityWithSpecAsync(spec);
             if (Product is null) return NotFound(new ApiResponse(404));
             var MappedProduct = _mapper.Map<Product,ProductToReturnDto>(Product);
             return Ok(MappedProduct);
