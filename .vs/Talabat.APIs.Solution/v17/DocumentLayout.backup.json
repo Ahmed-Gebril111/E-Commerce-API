@@ -7,32 +7,20 @@
       "RelativeMoniker": "D:0:0:{55B0A697-7FB8-4922-ABA8-85C3181EF554}|Talabat.APIs\\Talabat.APIs.csproj|solutionrelative:talabat.apis\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55B0A697-7FB8-4922-ABA8-85C3181EF554}|Talabat.APIs\\Talabat.APIs.csproj|f:\\complete route project\\e-commerce-api\\talabat.apis\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55B0A697-7FB8-4922-ABA8-85C3181EF554}|Talabat.APIs\\Talabat.APIs.csproj|solutionrelative:talabat.apis\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9A925E1-795C-45DF-8E60-C6F82C61BE46}|Talabat.Service\\Talabat.Service.csproj|f:\\complete route project\\e-commerce-api\\talabat.service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A925E1-795C-45DF-8E60-C6F82C61BE46}|Talabat.Service\\Talabat.Service.csproj|solutionrelative:talabat.service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8945C2C1-052C-4661-97EB-4141FD7EB85D}|Talabat.Core\\Talabat.Core.csproj|f:\\complete route project\\e-commerce-api\\talabat.core\\specifications\\order spec\\orderspecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8945C2C1-052C-4661-97EB-4141FD7EB85D}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\specifications\\order spec\\orderspecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55B0A697-7FB8-4922-ABA8-85C3181EF554}|Talabat.APIs\\Talabat.APIs.csproj|f:\\complete route project\\e-commerce-api\\talabat.apis\\extensions\\applicationservicesextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55B0A697-7FB8-4922-ABA8-85C3181EF554}|Talabat.APIs\\Talabat.APIs.csproj|solutionrelative:talabat.apis\\extensions\\applicationservicesextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9A925E1-795C-45DF-8E60-C6F82C61BE46}|Talabat.Service\\Talabat.Service.csproj|f:\\complete route project\\e-commerce-api\\talabat.service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9A925E1-795C-45DF-8E60-C6F82C61BE46}|Talabat.Service\\Talabat.Service.csproj|solutionrelative:talabat.service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{55B0A697-7FB8-4922-ABA8-85C3181EF554}|Talabat.APIs\\Talabat.APIs.csproj|f:\\complete route project\\e-commerce-api\\talabat.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55B0A697-7FB8-4922-ABA8-85C3181EF554}|Talabat.APIs\\Talabat.APIs.csproj|solutionrelative:talabat.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2358F2A-FE8C-4D64-8058-34649C69F718}|Talabat.Repository\\Talabat.Repository.csproj|f:\\complete route project\\e-commerce-api\\talabat.repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2358F2A-FE8C-4D64-8058-34649C69F718}|Talabat.Repository\\Talabat.Repository.csproj|solutionrelative:talabat.repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8945C2C1-052C-4661-97EB-4141FD7EB85D}|Talabat.Core\\Talabat.Core.csproj|f:\\complete route project\\e-commerce-api\\talabat.core\\repository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8945C2C1-052C-4661-97EB-4141FD7EB85D}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\repository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Complete Route Project\\E-Commerce-API\\Talabat.Repository\\UnitOfWork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Talabat.Repository\\UnitOfWork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,15 +42,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderDto.cs",
-              "DocumentMoniker": "F:\\Complete Route Project\\E-Commerce-API\\Talabat.APIs\\DTOs\\OrderDto.cs",
-              "RelativeDocumentMoniker": "Talabat.APIs\\DTOs\\OrderDto.cs",
-              "ToolTip": "F:\\Complete Route Project\\E-Commerce-API\\Talabat.APIs\\DTOs\\OrderDto.cs",
-              "RelativeToolTip": "Talabat.APIs\\DTOs\\OrderDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "OrderSpecifications.cs",
+              "DocumentMoniker": "F:\\Complete Route Project\\E-Commerce-API\\Talabat.Core\\Specifications\\Order Spec\\OrderSpecifications.cs",
+              "RelativeDocumentMoniker": "Talabat.Core\\Specifications\\Order Spec\\OrderSpecifications.cs",
+              "ToolTip": "F:\\Complete Route Project\\E-Commerce-API\\Talabat.Core\\Specifications\\Order Spec\\OrderSpecifications.cs*",
+              "RelativeToolTip": "Talabat.Core\\Specifications\\Order Spec\\OrderSpecifications.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T07:56:59.193Z",
+              "WhenOpened": "2025-11-08T09:27:01.94Z",
               "EditorCaption": ""
             },
             {
@@ -71,16 +59,16 @@
               "Title": "OrdersController.cs",
               "DocumentMoniker": "F:\\Complete Route Project\\E-Commerce-API\\Talabat.APIs\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "Talabat.APIs\\Controllers\\OrdersController.cs",
-              "ToolTip": "F:\\Complete Route Project\\E-Commerce-API\\Talabat.APIs\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "Talabat.APIs\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "ToolTip": "F:\\Complete Route Project\\E-Commerce-API\\Talabat.APIs\\Controllers\\OrdersController.cs*",
+              "RelativeToolTip": "Talabat.APIs\\Controllers\\OrdersController.cs*",
+              "ViewState": "AgIAACwAAAAAAAAAAAAYwD8AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T07:54:39.661Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ApplicationServicesExtension.cs",
               "DocumentMoniker": "F:\\Complete Route Project\\E-Commerce-API\\Talabat.APIs\\Extensions\\ApplicationServicesExtension.cs",
               "RelativeDocumentMoniker": "Talabat.APIs\\Extensions\\ApplicationServicesExtension.cs",
@@ -90,18 +78,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T07:35:23.924Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "F:\\Complete Route Project\\E-Commerce-API\\Talabat.Repository\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "Talabat.Repository\\UnitOfWork.cs",
-              "ToolTip": "F:\\Complete Route Project\\E-Commerce-API\\Talabat.Repository\\UnitOfWork.cs",
-              "RelativeToolTip": "Talabat.Repository\\UnitOfWork.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAA1wBUAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T07:06:38.859Z"
             },
             {
               "$type": "Document",
@@ -117,37 +93,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "F:\\Complete Route Project\\E-Commerce-API\\Talabat.Repository\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "Talabat.Repository\\GenericRepository.cs",
-              "ToolTip": "F:\\Complete Route Project\\E-Commerce-API\\Talabat.Repository\\GenericRepository.cs",
-              "RelativeToolTip": "Talabat.Repository\\GenericRepository.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwC0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T13:05:10.122Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "F:\\Complete Route Project\\E-Commerce-API\\Talabat.Core\\Repository\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "Talabat.Core\\Repository\\IGenericRepository.cs",
-              "ToolTip": "F:\\Complete Route Project\\E-Commerce-API\\Talabat.Core\\Repository\\IGenericRepository.cs",
-              "RelativeToolTip": "Talabat.Core\\Repository\\IGenericRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T13:05:10.63Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "OrderService.cs",
               "DocumentMoniker": "F:\\Complete Route Project\\E-Commerce-API\\Talabat.Service\\OrderService.cs",
               "RelativeDocumentMoniker": "Talabat.Service\\OrderService.cs",
-              "ToolTip": "F:\\Complete Route Project\\E-Commerce-API\\Talabat.Service\\OrderService.cs",
-              "RelativeToolTip": "Talabat.Service\\OrderService.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwEEAAAAAAAAAAAAAAA==",
+              "ToolTip": "F:\\Complete Route Project\\E-Commerce-API\\Talabat.Service\\OrderService.cs*",
+              "RelativeToolTip": "Talabat.Service\\OrderService.cs*",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAYwEsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-29T13:05:10.643Z",
               "EditorCaption": ""
