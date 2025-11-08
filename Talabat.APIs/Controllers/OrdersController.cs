@@ -17,26 +17,59 @@ namespace Talabat.APIs.Controllers
         private readonly IOrderService _orderService;
         private readonly IMapper _mapper;
 
-        public OrdersController(IOrderService orderService , IMapper mapper )
+        public OrdersController(IOrderService orderService, IMapper mapper)
         {
             _orderService = orderService;
             _mapper = mapper;
         }
 
 
-        [ProducesResponseType(typeof(Order),StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(Order), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status400BadRequest)]
         [HttpPost]
         [Authorize]
         public async Task<ActionResult<Order>> CreateOrder(OrderDto orderDto)
         {
-            var BuyerEmail =  User.FindFirstValue(ClaimTypes.Email);
+            var BuyerEmail = User.FindFirstValue(ClaimTypes.Email);
             var MappedAddress = _mapper.Map<AddressDto, Address>(orderDto.ShippingAddress);
-            var Order = await _orderService.CreateOrderAsync(BuyerEmail, orderDto.basketId,orderDto.DeliveryMethodId,MappedAddress);
+            var Order = await _orderService.CreateOrderAsync(BuyerEmail, orderDto.basketId, orderDto.DeliveryMethodId, MappedAddress);
             if (Order is null) return BadRequest(new ApiResponse(400, "There Is A Problem With Your Order "));
 
             return Ok(Order);
         }
+
+        [ProducesResponseType(typeof(ActionResult<IReadOnlyList<Order>>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status400BadRequest)]
+        [HttpGet]
+        [Authorize]
+        public async Task<ActionResult<IReadOnlyList<Order>>> GetOrdersForUser()
+        {
+            var buyerEmail = User.FindFirstValue(ClaimTypes.Email);
+            var Orders = await _orderService.GetOrderForSpecificUserAsync(buyerEmail);
+            if (Orders is null) return NotFound(new ApiResponse(404, "There Is No Orders For This User "));
+            return Ok(Orders);
+        }
+
+
+        [ProducesResponseType(typeof(Order), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status400BadRequest)]
+        [HttpGet("{id}")]
+        [Authorize]
+        public async Task<ActionResult<Order>> GetOrderByIdForUser(int id)
+        {
+            var buyerEmail = User.FindFirstValue(ClaimTypes.Email);
+            var Order = await _orderService.GetOrderByIdForSpecificUserAsync(buyerEmail,id);
+            if (Order is null) return NotFound(new ApiResponse(404, $"There Is No Order with id = {id} For This User "));
+        
+            return Ok(Order);
+
+        } 
+
+
+
+
+
+
 
     }
 }
