@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Talabat.APIs.Errors;
 using Talabat.APIs.Helpers;
+using Talabat.Core;
 using Talabat.Core.Repository;
 using Talabat.Repository;
 
@@ -11,6 +12,8 @@ namespace Talabat.APIs.Extensions
 
         public static IServiceCollection AddApplicationServices(this IServiceCollection services)
         {
+
+            services.AddScoped(typeof(IUnitOfWork) , typeof(UnitOfWork));
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
             services.AddScoped(typeof(IBasketRepository), typeof(BasketRepository));

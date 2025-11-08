@@ -47,7 +47,7 @@ namespace Talabat.APIs
                 return ConnectionMultiplexer.Connect(Connection);
             });
 
-          
+
 
             builder.Services.AddApplicationServices();
 
